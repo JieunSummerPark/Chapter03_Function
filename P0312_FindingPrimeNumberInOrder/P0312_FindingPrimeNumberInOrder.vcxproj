@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{037A9B2E-B689-4F9C-81F5-0B551D3920B9}</ProjectGuid>
+    <ProjectGuid>{BE3A19E1-B3CF-4F4B-B276-87B94BB7A878}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>P0302AddFactorial</RootNamespace>
+    <RootNamespace>P0312FindingPrimeNumberInOrder</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,11 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AddFactorial.cpp" />
-    <ClCompile Include="P0302_AddFactorial.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AddFactorial.h" />
+    <ClCompile Include="P0312_FindingPrimeNumberInOrder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

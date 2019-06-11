@@ -1,18 +1,11 @@
-﻿// P0302_AddFactorial.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+﻿// P0316_SpeedGugu.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
-#include <stdio.h>
-#include "AddFactorial.h"
+#include <iostream>
 
-void main()
+int main()
 {
-	int x = 3, y = 4, z;
-	z = add(x, y);
-	printf("x + y = %d\n", z);
-	
-	z = factorial(x);
-	printf("%d! = %d\n", x, z);
-	printf("5! = %d\n", factorial(5));
+    std::cout << "Hello World!\n"; 
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

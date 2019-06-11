@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="P0302_AddFactorial.cpp">
+    <ClCompile Include="P0316_SpeedGugu.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="AddFactorial.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AddFactorial.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
