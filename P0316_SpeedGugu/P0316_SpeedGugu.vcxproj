@@ -151,7 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="P0316_SpeedGugu.cpp" />
+    <ClCompile Include="SGGame.cpp" />
+    <ClCompile Include="SpeedGugu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpeedGugu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

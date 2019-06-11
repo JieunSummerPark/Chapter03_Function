@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="P0316_SpeedGugu.cpp">
+    <ClInclude Include="SpeedGugu.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SpeedGugu.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SGGame.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
